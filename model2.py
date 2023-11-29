@@ -11,8 +11,6 @@ from tensorflow.keras.layers import (
     Flatten,
     Dense,
     BatchNormalization,
-    Dropout,
-    Activation,
 )
 from tensorflow.keras.callbacks import Callback, ModelCheckpoint, EarlyStopping
 from tensorflow.keras.losses import CategoricalCrossentropy
