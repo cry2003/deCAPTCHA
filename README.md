@@ -20,11 +20,12 @@ deCAPTCHA è un progetto che utilizza una rete neurale convoluzionale (CNN) per 
 1. Clonare il repository: `git clone https://github.com/tuonome/deCAPTCHA.git`
 2. Posizionarsi nella directory del progetto: `cd deCAPTCHA`
 3. Installare i requisiti: `pip install -r requirements.txt`
+4. Donwload del modello: [download](https://www.mediafire.com/file/htmte5l6xis1rey/best_model.keras/file) model
 
 ## Utilizzo
 
 1. Assicurarsi che la CNN sia adeguatamente addestrata eseguendo lo script di addestramento (se necessario).
-2. Eseguire lo script principale per avviare il processo di riconoscimento automatico: `python decaptcha.py`
+2. Eseguire lo script principale per avviare il processo di riconoscimento automatico: `python main.py`
 3. Seguire le istruzioni per l'integrazione con il sistema di autenticazione desiderato.
 
 ## Contribuzioni
